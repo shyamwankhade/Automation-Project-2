@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\attar\AppData\Local\Temp\testng-eclipse--160505007\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 5 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="Place_Order_Register_before_Checkout">Place_Order_Register_before_Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="add_products_incart">add_products_incart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="loginuser_with_correct_crendials">loginuser_with_correct_crendials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="loginuser_with_incorrect_crendials">loginuser_with_incorrect_crendials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="verify_address_details_in_checkoutpage">verify_address_details_in_checkoutpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="Place_Order_Register_while_Checkout">Place_Order_Register_while_Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="add_review_in_product">add_review_in_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="add_tocart_from_recommandeditems">add_tocart_from_recommandeditems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="contactus_form">contactus_form</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="logout_user">logout_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="prod_search_verify_cart_afterlogin">prod_search_verify_cart_afterlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="registeruser_with_existingmail">registeruser_with_existingmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="remove_product_from_cart">remove_product_from_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="resgistrationpage_testcase">resgistrationpage_testcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="scroll_up_and_down_using_arrowbutton">scroll_up_and_down_using_arrowbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="scroll_up_and_down_withour_using_arrowbutton">scroll_up_and_down_withour_using_arrowbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="search_product">search_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="verify_allproducts_productdetailspage">verify_allproducts_productdetailspage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="verify_product_quantity_in_cart">verify_product_quantity_in_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="verify_subscription_in_cartpage">verify_subscription_in_cartpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="verify_subscription_in_homepage">verify_subscription_in_homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="verify_testcases_page">verify_testcases_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="view_and_cart_brand_products">view_and_cart_brand_products</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.AutomationTestCase" class="method navigator-link" hash-for-method="view_category_products">view_category_products</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AutomationTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Place_Order_Register_before_Checkout">
+                  </a> <!-- Place_Order_Register_before_Checkout -->
+                  <span class="method-name">Place_Order_Register_before_Checkout</span>
+                  <div class="stack-trace">java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+	at pageElements.RegisterUser.homepagevisibiblity(RegisterUser.java:57)
+	at pageElements.PlaceOrderPage.register_beforecheckout(PlaceOrderPage.java:166)
+	at tests.AutomationTestCase.Place_Order_Register_before_Checkout(AutomationTestCase.java:149)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_products_incart">
+                  </a> <!-- add_products_incart -->
+                  <span class="method-name">add_products_incart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at pageElements.Productpage.addproducts(Productpage.java:172)
+	at tests.AutomationTestCase.add_products_incart(AutomationTestCase.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginuser_with_correct_crendials">
+                  </a> <!-- loginuser_with_correct_crendials -->
+                  <span class="method-name">loginuser_with_correct_crendials</span>
+                  <div class="stack-trace">java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+	at pageElements.LoginUser.loginWithCorrectCred(LoginUser.java:46)
+	at tests.AutomationTestCase.loginuser_with_correct_crendials(AutomationTestCase.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginuser_with_incorrect_crendials">
+                  </a> <!-- loginuser_with_incorrect_crendials -->
+                  <span class="method-name">loginuser_with_incorrect_crendials</span>
+                  <div class="stack-trace">java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+	at pageElements.LoginUser.loginWithInCorrectCred(LoginUser.java:77)
+	at tests.AutomationTestCase.loginuser_with_incorrect_crendials(AutomationTestCase.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_address_details_in_checkoutpage">
+                  </a> <!-- verify_address_details_in_checkoutpage -->
+                  <span class="method-name">verify_address_details_in_checkoutpage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+	at pageElements.PlaceOrderPage.addressdetails_verify(PlaceOrderPage.java:291)
+	at tests.AutomationTestCase.verify_address_details_in_checkoutpage(AutomationTestCase.java:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AutomationTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Place_Order_Register_while_Checkout">
+                  </a> <!-- Place_Order_Register_while_Checkout -->
+                  <span class="method-name">Place_Order_Register_while_Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_review_in_product">
+                  </a> <!-- add_review_in_product -->
+                  <span class="method-name">add_review_in_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_tocart_from_recommandeditems">
+                  </a> <!-- add_tocart_from_recommandeditems -->
+                  <span class="method-name">add_tocart_from_recommandeditems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactus_form">
+                  </a> <!-- contactus_form -->
+                  <span class="method-name">contactus_form</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout_user">
+                  </a> <!-- logout_user -->
+                  <span class="method-name">logout_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="prod_search_verify_cart_afterlogin">
+                  </a> <!-- prod_search_verify_cart_afterlogin -->
+                  <span class="method-name">prod_search_verify_cart_afterlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registeruser_with_existingmail">
+                  </a> <!-- registeruser_with_existingmail -->
+                  <span class="method-name">registeruser_with_existingmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="remove_product_from_cart">
+                  </a> <!-- remove_product_from_cart -->
+                  <span class="method-name">remove_product_from_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resgistrationpage_testcase">
+                  </a> <!-- resgistrationpage_testcase -->
+                  <span class="method-name">resgistrationpage_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scroll_up_and_down_using_arrowbutton">
+                  </a> <!-- scroll_up_and_down_using_arrowbutton -->
+                  <span class="method-name">scroll_up_and_down_using_arrowbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scroll_up_and_down_withour_using_arrowbutton">
+                  </a> <!-- scroll_up_and_down_withour_using_arrowbutton -->
+                  <span class="method-name">scroll_up_and_down_withour_using_arrowbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_product">
+                  </a> <!-- search_product -->
+                  <span class="method-name">search_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_allproducts_productdetailspage">
+                  </a> <!-- verify_allproducts_productdetailspage -->
+                  <span class="method-name">verify_allproducts_productdetailspage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_product_quantity_in_cart">
+                  </a> <!-- verify_product_quantity_in_cart -->
+                  <span class="method-name">verify_product_quantity_in_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_subscription_in_cartpage">
+                  </a> <!-- verify_subscription_in_cartpage -->
+                  <span class="method-name">verify_subscription_in_cartpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_subscription_in_homepage">
+                  </a> <!-- verify_subscription_in_homepage -->
+                  <span class="method-name">verify_subscription_in_homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_testcases_page">
+                  </a> <!-- verify_testcases_page -->
+                  <span class="method-name">verify_testcases_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="view_and_cart_brand_products">
+                  </a> <!-- view_and_cart_brand_products -->
+                  <span class="method-name">view_and_cart_brand_products</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="view_category_products">
+                  </a> <!-- view_category_products -->
+                  <span class="method-name">view_category_products</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\attar\AppData\Local\Temp\testng-eclipse--160505007\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AutomationTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'contactus_form')
+data.setCell(0, 2, 'tests.AutomationTestCase')
+data.setCell(0, 3, 14516);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'search_product')
+data.setCell(1, 2, 'tests.AutomationTestCase')
+data.setCell(1, 3, 8066);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_allproducts_productdetailspage')
+data.setCell(2, 2, 'tests.AutomationTestCase')
+data.setCell(2, 3, 7249);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_testcases_page')
+data.setCell(3, 2, 'tests.AutomationTestCase')
+data.setCell(3, 3, 5383);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_subscription_in_cartpage')
+data.setCell(4, 2, 'tests.AutomationTestCase')
+data.setCell(4, 3, 4491);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_subscription_in_homepage')
+data.setCell(5, 2, 'tests.AutomationTestCase')
+data.setCell(5, 3, 3675);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'resgistrationpage_testcase')
+data.setCell(6, 2, 'tests.AutomationTestCase')
+data.setCell(6, 3, 1373);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'view_and_cart_brand_products')
+data.setCell(7, 2, 'tests.AutomationTestCase')
+data.setCell(7, 3, 1104);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'view_category_products')
+data.setCell(8, 2, 'tests.AutomationTestCase')
+data.setCell(8, 3, 1087);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'prod_search_verify_cart_afterlogin')
+data.setCell(9, 2, 'tests.AutomationTestCase')
+data.setCell(9, 3, 1084);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'scroll_up_and_down_using_arrowbutton')
+data.setCell(10, 2, 'tests.AutomationTestCase')
+data.setCell(10, 3, 1082);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'remove_product_from_cart')
+data.setCell(11, 2, 'tests.AutomationTestCase')
+data.setCell(11, 3, 1078);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'scroll_up_and_down_withour_using_arrowbutton')
+data.setCell(12, 2, 'tests.AutomationTestCase')
+data.setCell(12, 3, 1077);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verify_product_quantity_in_cart')
+data.setCell(13, 2, 'tests.AutomationTestCase')
+data.setCell(13, 3, 1066);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'add_tocart_from_recommandeditems')
+data.setCell(14, 2, 'tests.AutomationTestCase')
+data.setCell(14, 3, 1063);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'add_review_in_product')
+data.setCell(15, 2, 'tests.AutomationTestCase')
+data.setCell(15, 3, 1057);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Place_Order_Register_while_Checkout')
+data.setCell(16, 2, 'tests.AutomationTestCase')
+data.setCell(16, 3, 1054);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'logout_user')
+data.setCell(17, 2, 'tests.AutomationTestCase')
+data.setCell(17, 3, 864);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'registeruser_with_existingmail')
+data.setCell(18, 2, 'tests.AutomationTestCase')
+data.setCell(18, 3, 796);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'add_products_incart')
+data.setCell(19, 2, 'tests.AutomationTestCase')
+data.setCell(19, 3, 58);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verify_address_details_in_checkoutpage')
+data.setCell(20, 2, 'tests.AutomationTestCase')
+data.setCell(20, 3, 55);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginuser_with_correct_crendials')
+data.setCell(21, 2, 'tests.AutomationTestCase')
+data.setCell(21, 3, 12);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginuser_with_incorrect_crendials')
+data.setCell(22, 2, 'tests.AutomationTestCase')
+data.setCell(22, 3, 10);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Place_Order_Register_before_Checkout')
+data.setCell(23, 2, 'tests.AutomationTestCase')
+data.setCell(23, 3, 10);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AutomationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">resgistrationpage_testcase</span>
+                <span class="method-start">7442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginuser_with_correct_crendials</span>
+                <span class="method-start">8818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginuser_with_incorrect_crendials</span>
+                <span class="method-start">8833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout_user</span>
+                <span class="method-start">8844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registeruser_with_existingmail</span>
+                <span class="method-start">9710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactus_form</span>
+                <span class="method-start">10507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_testcases_page</span>
+                <span class="method-start">25024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_allproducts_productdetailspage</span>
+                <span class="method-start">30409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search_product</span>
+                <span class="method-start">37659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_subscription_in_homepage</span>
+                <span class="method-start">45727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_subscription_in_cartpage</span>
+                <span class="method-start">49404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_products_incart</span>
+                <span class="method-start">53896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_product_quantity_in_cart</span>
+                <span class="method-start">53956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Place_Order_Register_while_Checkout</span>
+                <span class="method-start">55023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Place_Order_Register_before_Checkout</span>
+                <span class="method-start">56080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">remove_product_from_cart</span>
+                <span class="method-start">56092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">view_category_products</span>
+                <span class="method-start">57173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">view_and_cart_brand_products</span>
+                <span class="method-start">58262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">prod_search_verify_cart_afterlogin</span>
+                <span class="method-start">59369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_review_in_product</span>
+                <span class="method-start">60454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_tocart_from_recommandeditems</span>
+                <span class="method-start">61515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_address_details_in_checkoutpage</span>
+                <span class="method-start">62581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scroll_up_and_down_using_arrowbutton</span>
+                <span class="method-start">62637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scroll_up_and_down_withour_using_arrowbutton</span>
+                <span class="method-start">63720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">64835 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

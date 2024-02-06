@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="19" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-30T16:53:07 IST" name="Default suite" finished-at="2023-12-30T16:54:12 IST" duration-ms="64809">
+    <groups>
+    </groups>
+    <test started-at="2023-12-30T16:53:07 IST" name="Default test" finished-at="2023-12-30T16:54:12 IST" duration-ms="64809">
+      <class name="tests.AutomationTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:07 IST" name="setup" finished-at="2023-12-30T16:53:14 IST" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="resgistrationpage_testcase()[pri:1, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:14 IST" name="resgistrationpage_testcase" finished-at="2023-12-30T16:53:16 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resgistrationpage_testcase -->
+        <test-method signature="loginuser_with_correct_crendials()[pri:2, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:16 IST" name="loginuser_with_correct_crendials" finished-at="2023-12-30T16:53:16 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+at pageElements.LoginUser.loginWithCorrectCred(LoginUser.java:46)
+at tests.AutomationTestCase.loginuser_with_correct_crendials(AutomationTestCase.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser_with_correct_crendials -->
+        <test-method signature="loginuser_with_incorrect_crendials()[pri:3, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:16 IST" name="loginuser_with_incorrect_crendials" finished-at="2023-12-30T16:53:16 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+at pageElements.LoginUser.loginWithInCorrectCred(LoginUser.java:77)
+at tests.AutomationTestCase.loginuser_with_incorrect_crendials(AutomationTestCase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser_with_incorrect_crendials -->
+        <test-method signature="logout_user()[pri:4, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:16 IST" name="logout_user" finished-at="2023-12-30T16:53:16 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_user -->
+        <test-method signature="registeruser_with_existingmail()[pri:5, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:16 IST" name="registeruser_with_existingmail" finished-at="2023-12-30T16:53:17 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeruser_with_existingmail -->
+        <test-method signature="contactus_form()[pri:6, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:17 IST" name="contactus_form" finished-at="2023-12-30T16:53:32 IST" duration-ms="14516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus_form -->
+        <test-method signature="verify_testcases_page()[pri:7, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:32 IST" name="verify_testcases_page" finished-at="2023-12-30T16:53:37 IST" duration-ms="5383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_testcases_page -->
+        <test-method signature="verify_allproducts_productdetailspage()[pri:8, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:37 IST" name="verify_allproducts_productdetailspage" finished-at="2023-12-30T16:53:44 IST" duration-ms="7249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_allproducts_productdetailspage -->
+        <test-method signature="search_product()[pri:9, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:44 IST" name="search_product" finished-at="2023-12-30T16:53:53 IST" duration-ms="8066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_product -->
+        <test-method signature="verify_subscription_in_homepage()[pri:10, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:53 IST" name="verify_subscription_in_homepage" finished-at="2023-12-30T16:53:56 IST" duration-ms="3675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_subscription_in_homepage -->
+        <test-method signature="verify_subscription_in_cartpage()[pri:11, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:53:56 IST" name="verify_subscription_in_cartpage" finished-at="2023-12-30T16:54:01 IST" duration-ms="4491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_subscription_in_cartpage -->
+        <test-method signature="add_products_incart()[pri:12, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:01 IST" name="add_products_incart" finished-at="2023-12-30T16:54:01 IST" duration-ms="58" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at pageElements.Productpage.addproducts(Productpage.java:172)
+at tests.AutomationTestCase.add_products_incart(AutomationTestCase.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_products_incart -->
+        <test-method signature="verify_product_quantity_in_cart()[pri:13, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:01 IST" name="verify_product_quantity_in_cart" finished-at="2023-12-30T16:54:02 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_product_quantity_in_cart -->
+        <test-method signature="Place_Order_Register_while_Checkout()[pri:14, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:02 IST" name="Place_Order_Register_while_Checkout" finished-at="2023-12-30T16:54:03 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Place_Order_Register_while_Checkout -->
+        <test-method signature="Place_Order_Register_before_Checkout()[pri:15, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:03 IST" name="Place_Order_Register_before_Checkout" finished-at="2023-12-30T16:54:03 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+at pageElements.RegisterUser.homepagevisibiblity(RegisterUser.java:57)
+at pageElements.PlaceOrderPage.register_beforecheckout(PlaceOrderPage.java:166)
+at tests.AutomationTestCase.Place_Order_Register_before_Checkout(AutomationTestCase.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Place_Order_Register_before_Checkout -->
+        <test-method signature="remove_product_from_cart()[pri:17, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:03 IST" name="remove_product_from_cart" finished-at="2023-12-30T16:54:04 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_product_from_cart -->
+        <test-method signature="view_category_products()[pri:18, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:04 IST" name="view_category_products" finished-at="2023-12-30T16:54:05 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_category_products -->
+        <test-method signature="view_and_cart_brand_products()[pri:19, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:05 IST" name="view_and_cart_brand_products" finished-at="2023-12-30T16:54:06 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_and_cart_brand_products -->
+        <test-method signature="prod_search_verify_cart_afterlogin()[pri:20, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:06 IST" name="prod_search_verify_cart_afterlogin" finished-at="2023-12-30T16:54:07 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod_search_verify_cart_afterlogin -->
+        <test-method signature="add_review_in_product()[pri:21, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:07 IST" name="add_review_in_product" finished-at="2023-12-30T16:54:08 IST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_review_in_product -->
+        <test-method signature="add_tocart_from_recommandeditems()[pri:22, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:08 IST" name="add_tocart_from_recommandeditems" finished-at="2023-12-30T16:54:09 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_tocart_from_recommandeditems -->
+        <test-method signature="verify_address_details_in_checkoutpage()[pri:23, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:09 IST" name="verify_address_details_in_checkoutpage" finished-at="2023-12-30T16:54:09 IST" duration-ms="55" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual url is equal to the expected url(https://automationexercise.com/) expected [https://automationexercise.com/] but found [https://automationexercise.com/view_cart#google_vignette]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at utilities.Reusableclass.urlEquals(Reusableclass.java:31)
+at pageElements.PlaceOrderPage.addressdetails_verify(PlaceOrderPage.java:291)
+at tests.AutomationTestCase.verify_address_details_in_checkoutpage(AutomationTestCase.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_address_details_in_checkoutpage -->
+        <test-method signature="scroll_up_and_down_using_arrowbutton()[pri:25, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:09 IST" name="scroll_up_and_down_using_arrowbutton" finished-at="2023-12-30T16:54:11 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll_up_and_down_using_arrowbutton -->
+        <test-method signature="scroll_up_and_down_withour_using_arrowbutton()[pri:26, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:11 IST" name="scroll_up_and_down_withour_using_arrowbutton" finished-at="2023-12-30T16:54:12 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll_up_and_down_withour_using_arrowbutton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AutomationTestCase@7188af83]" started-at="2023-12-30T16:54:12 IST" name="closeBrowser" finished-at="2023-12-30T16:54:12 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AutomationTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
